@@ -1,12 +1,11 @@
-// import './components/Header'
+import './components/Header'
+import Header from './components/Header'
 
 const App = () => {
     return (
         <div>
-            <p className="text-3xl font-bold">
-                Rosvel Servicios S. A. de C. V. <br/>
-                Todo en imanes y aplicaciones magneticas
-            </p>
+            <Header/>
+            <br /><br />
             <p>
                 Rosvel Servicios S.A de C.V <br />
                 Playa Mirador 556 <br />
