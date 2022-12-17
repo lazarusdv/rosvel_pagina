@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/rosvel_pagina/static/css/main.073c9b0a.css",
-    "main.js": "/rosvel_pagina/static/js/main.0534eacf.js",
+    "main.css": "/rosvel_pagina/static/css/main.40d39393.css",
+    "main.js": "/rosvel_pagina/static/js/main.23d3b0f6.js",
     "static/js/787.308b3451.chunk.js": "/rosvel_pagina/static/js/787.308b3451.chunk.js",
-    "static/media/logo.svg": "/rosvel_pagina/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/rosvel_pagina/index.html",
-    "main.073c9b0a.css.map": "/rosvel_pagina/static/css/main.073c9b0a.css.map",
-    "main.0534eacf.js.map": "/rosvel_pagina/static/js/main.0534eacf.js.map",
+    "main.40d39393.css.map": "/rosvel_pagina/static/css/main.40d39393.css.map",
+    "main.23d3b0f6.js.map": "/rosvel_pagina/static/js/main.23d3b0f6.js.map",
     "787.308b3451.chunk.js.map": "/rosvel_pagina/static/js/787.308b3451.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0534eacf.js"
+    "static/css/main.40d39393.css",
+    "static/js/main.23d3b0f6.js"
   ]
 }
