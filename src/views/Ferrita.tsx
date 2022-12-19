@@ -1,9 +1,13 @@
-// import Header from '../components/Header'
+import Header from '../components/Header'
 
 const Ferrita = () => {
     return (
         <div>
-            Ferrita
+            <Header />
+            <br /><br />
+            <span className="text-2xl">
+                Ferrita
+            </span>
         </div>
     )
 }

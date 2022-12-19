@@ -1,22 +1,25 @@
+import { NavLink } from 'react-router-dom'
+
 import NavItem from './NavItem'
 
 const Header = () => {
-    const nav_items:Array<string> = [
-        'Ferrita',
-        'Neodimio',
-        'ALNICO',
-        'Samario-cobalto',
-        'Aplicaciones magneticas'
+    //[name, link]
+    const nav_items:Array<[string, string]> = [
+        ['Ferrita', 'ferrita'],
+        ['Neodimio', 'neodimio'],
+        ['ALNICO', 'alnico'],
+        ['Samario-cobalto', 'samarioCobalto'],
+        ['Aplicaciones magneticas', 'aplicacionesMagneticas']
     ]
     return (
         <div className="flex flex-col md:flex-row">
-            <div>
+            <NavLink to="/">
                 <span className="text-xl font-bold block">
                     Rosvel Servicios S. A. de C. V. 
                 </span>
                 Todo en imanes y aplicaciones magneticas
-            </div>
-            {nav_items.map((item) => <NavItem name={item}/>)}
+            </NavLink>
+            {nav_items.map((item) => <NavItem name={item[0]} link={item[1]}/>)}
         </div>
     )
 }
