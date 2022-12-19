@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import Iman from '../components/Iman'
 
 const Ferrita = () => {
     return (
@@ -8,6 +9,7 @@ const Ferrita = () => {
             <span className="text-2xl">
                 Ferrita
             </span>
+            <Iman/>
         </div>
     )
 }
