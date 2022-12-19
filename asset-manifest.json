@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rosvel_pagina/static/css/main.6e29b1dd.css",
-    "main.js": "/rosvel_pagina/static/js/main.a9c4976c.js",
+    "main.js": "/rosvel_pagina/static/js/main.890f9ffc.js",
     "static/js/787.308b3451.chunk.js": "/rosvel_pagina/static/js/787.308b3451.chunk.js",
     "index.html": "/rosvel_pagina/index.html",
     "main.6e29b1dd.css.map": "/rosvel_pagina/static/css/main.6e29b1dd.css.map",
-    "main.a9c4976c.js.map": "/rosvel_pagina/static/js/main.a9c4976c.js.map",
+    "main.890f9ffc.js.map": "/rosvel_pagina/static/js/main.890f9ffc.js.map",
     "787.308b3451.chunk.js.map": "/rosvel_pagina/static/js/787.308b3451.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e29b1dd.css",
-    "static/js/main.a9c4976c.js"
+    "static/js/main.890f9ffc.js"
   ]
 }
