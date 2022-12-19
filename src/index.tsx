@@ -1,19 +1,40 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Main from './views/Main';
-import Ferrita from './views/Ferrita'
-import reportWebVitals from './reportWebVitals';
 import { createHashRouter, RouterProvider } from 'react-router-dom'
+import reportWebVitals from './reportWebVitals';
+
+import './index.css'
+import Main from './views/Main'
+import Ferrita from './views/Ferrita'
+import Neodimio from './views/Neodimio'
+import ALNICO from './views/ALNICO'
+import SamarioCobalto from './views/SamarioCobalto'
+import AplicacionesMagneticas from './views/AplicacionesMagneticas';
 
 const router = createHashRouter([
   {
-    path: "/",
+    path: '/',
     element: <Main/>,
   },
   {
-    path: "/ferrita",
+    path: '/ferrita',
     element: <Ferrita/>
+  },
+  {
+    path: '/neodimio',
+    element: <Neodimio/>
+  },
+  {
+    path: '/alnico',
+    element: <ALNICO/>
+  },
+  {
+    path: 'samarioCobalto',
+    element: <SamarioCobalto/>
+  },
+  {
+    path: 'aplicacionesMagneticas',
+    element: <AplicacionesMagneticas/>
   }
 ]);
 
